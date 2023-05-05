@@ -380,12 +380,9 @@ body {
     padding-top: 72px;
   }
 }
-#choose {
-  padding-bottom: 200px;
-}
-
 .choose__container {
   height: 200px;
+  padding-bottom: 630px;
 }
 
 .choose__content {
@@ -483,4 +480,219 @@ body {
   height: 240px;
   background-color: #2C343E;
   z-index: -1;
+  top: 319px;
+}
+
+@media screen and (max-width: 1240px) {
+  .choose__list {
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 1070px) {
+  .choose__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .choose__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 41px 48px 41px 70px;
+    max-width: 100%;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 180px;
+  }
+  .choose__item::before {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    margin-bottom: 0;
+  }
+  .choose__item__content {
+    max-width: 344px;
+    margin-left: 55px;
+  }
+  .choose__sub-title {
+    text-align: start;
+    margin-bottom: 16px;
+  }
+  .choose__sub-text {
+    text-align: start;
+    max-width: 344px;
+    height: 50px;
+  }
+  .choose__box {
+    height: 350px;
+  }
+  .choose__container {
+    padding-bottom: 830px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .choose__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 279px;
+    height: 382px;
+    padding: 72px 12px 51px 12px;
+    text-align: center;
+  }
+  .choose__item::before {
+    margin-bottom: 56px;
+  }
+  .choose__item__content {
+    max-width: 255px;
+    height: 131px;
+    margin-left: 0;
+  }
+  .choose__sub-title {
+    text-align: center;
+  }
+  .choose__sub-text {
+    text-align: center;
+  }
+  .choose__container {
+    padding-bottom: 1430px;
+  }
+}
+.plan__container {
+  margin-top: 300px;
+  max-width: 1100px;
+  height: 565px;
+  padding-left: 40px;
+}
+
+.plan__title {
+  height: 32px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 178px;
+}
+
+.plan__item {
+  max-width: 285px;
+}
+
+.plan__text {
+  height: 72px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.plan__sub__title {
+  height: 73px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  max-width: 255px;
+  margin-bottom: 42px;
+}
+
+.plan__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 58px;
+}
+
+.plan__sub-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 285px;
+  color: #333D4B;
+}
+
+.plan__item + .plan__item {
+  margin-left: 95px;
+}
+
+.plan__btn {
+  background-color: #66D2CF;
+  border-radius: 6px;
+  max-width: 217px;
+  height: 56px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  border: none;
+  padding-right: 31px;
+  padding-left: 31px;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 930px) {
+  .plan__item {
+    max-width: 223px;
+  }
+  .plan__text {
+    margin-bottom: 42px;
+  }
+  .plan__sub__title {
+    max-width: 223px;
+    margin-bottom: 38px;
+  }
+  .plan__sub-text {
+    max-width: 223px;
+  }
+  t .plan__list {
+    padding-bottom: 47px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .plan__title {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    max-width: 327px;
+  }
+  .plan__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .plan__item {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 327px;
+    margin-bottom: 24px;
+  }
+  .plan__text {
+    margin-bottom: 24px;
+  }
+  .plan__sub__title {
+    max-width: 327px;
+  }
+  .plan__item + .plan__item {
+    margin-left: 113px;
+  }
+  .plan__sub-text {
+    max-width: 327px;
+  }
+  .plan__btn {
+    max-width: 217px;
+    margin-left: 173px;
+  }
 }/*# sourceMappingURL=main.css.map */

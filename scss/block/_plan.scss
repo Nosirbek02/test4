@@ -1,0 +1,139 @@
+.plan__container {
+    margin-top: 300px;
+    max-width: 1100px;
+    height: 565px;
+    padding-left: 40px;
+}
+
+.plan__title {
+    height: 32px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    margin-bottom: 178px;
+}
+
+.plan__item {
+    max-width: 285px;
+}
+
+.plan__text {
+    height: 72px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+
+.plan__sub__title {
+    height: 73px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    max-width: 255px;
+    margin-bottom: 42px;
+}
+
+.plan__list {
+    display: flex;
+    padding-bottom: 58px;
+}
+
+.plan__sub-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 285px;
+    color: #333D4B;
+}
+
+.plan__item+.plan__item {
+    margin-left: 95px;
+}
+
+.plan__btn {
+    background-color: #66D2CF;
+    border-radius: 6px;
+    max-width: 217px;
+    height: 56px;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    border: none;
+    padding-right: 31px;
+    padding-left: 31px;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width:930px){
+    .plan__item{
+        max-width: 223px;
+    }
+
+    .plan__text{
+        margin-bottom: 42px;
+    }
+
+    .plan__sub__title{
+        max-width: 223px;
+        margin-bottom: 38px;
+    }
+
+    .plan__sub-text{
+        max-width: 223px;
+    }t
+
+    .plan__list{
+        padding-bottom: 47px;
+    }
+}
+
+@media screen and (max-width:620px){
+    .plan__title{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 80px;
+        max-width: 327px;
+    }
+
+    .plan__list{
+        flex-direction: column;
+    }
+
+    .plan__item{
+        text-align: center;
+        margin: 0 auto;
+        max-width: 327px;
+        margin-bottom: 24px;
+    }
+
+    .plan__text{
+        margin-bottom: 24px;
+    }
+
+    .plan__sub__title{
+        max-width: 327px;
+    }
+
+    .plan__item + .plan__item{
+        margin-left: 113px;
+    }
+
+    .plan__sub-text{
+        max-width: 327px;
+    }
+
+    .plan__btn{
+        max-width: 217px;
+        margin-left: 173px;
+    }
+}

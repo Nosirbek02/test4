@@ -170,6 +170,10 @@ body {
   height: 600px;
 }
 
+.hero__container {
+  margin-bottom: 136px;
+}
+
 .hero__title {
   height: 145px;
   font-family: "Fraunces";
@@ -275,5 +279,82 @@ body {
     opacity: 0.8;
     max-width: 279px;
     margin-bottom: 39px;
+  }
+}
+#collection {
+  padding-bottom: 200px;
+}
+
+.collection__item {
+  max-width: 255px;
+  text-align: center;
+}
+
+.collection__title {
+  height: 32px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.collection__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.collection__img {
+  margin-bottom: 72px;
+}
+
+.collection__list {
+  max-width: 1111px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-image: url(../../img/collection__main__img.png);
+  background-size: contain;
+  padding-top: 126px;
+  gap: 30px;
+}
+
+@media screen and (max-width: 930px) {
+  .collection__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .collection__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 573px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .collection__content {
+    max-width: 282px;
+    text-align: start;
+  }
+  .collection__img {
+    margin-bottom: 0;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  .collection__text {
+    max-width: 282px;
+    height: 50px;
   }
 }/*# sourceMappingURL=main.css.map */

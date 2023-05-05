@@ -70,5 +70,25 @@
 }
 
 @media screen and (max-width:520px){
-    
+    .collection__item{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .collection__content{
+        text-align: center;
+    }
+
+    .collection__title{
+        margin-bottom: 16px;
+    }
+
+    .collection__img{
+        margin-bottom: 24px;
+        max-width: 200px;
+    }
+
+    .collection__list{
+        padding-top: 72px;
+    }
 }

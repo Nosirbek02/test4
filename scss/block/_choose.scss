@@ -49,17 +49,17 @@
         display: inline-block;
         margin-bottom: 56px;
         background-repeat: no-repeat;
-        background-image: url(../../img/choose__icon1.svg);
+        background-image: url(../img/choose__icon1.svg);
     }
 
     &:nth-child(2)::before{
         background-repeat: no-repeat;
-        background-image: url(../../img/choose__icon2.svg);
+        background-image: url(../img/choose__icon2.svg);
     }
 
     &:nth-child(3)::before{
         background-repeat: no-repeat;
-        background-image: url(../../img/choose__icon3.svg);
+        background-image: url(../img/choose__icon3.svg);
     }
 }
 

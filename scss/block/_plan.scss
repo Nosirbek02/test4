@@ -1,3 +1,7 @@
+#plan{
+    padding-bottom: 200px;
+}
+
 .plan__container {
     margin-top: 300px;
     max-width: 1100px;
@@ -12,11 +16,34 @@
     font-size: 24px;
     line-height: 32px;
     color: #83888F;
-    margin-bottom: 178px;
+    margin-bottom: 80px;
+}
+
+.line{
+    max-width: 760px;
+    background-color: #FDD6BA;
+    height: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 67px;
+
+
+    span{
+        background-color: #FEFCF7;
+        border: 2px solid #0E8784;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
 }
 
 .plan__item {
     max-width: 285px;
+}
+
+.plan__item + .plan__item{
+    margin-left: 95px;
 }
 
 .plan__text {
@@ -67,7 +94,6 @@
     border: none;
     padding-right: 31px;
     padding-left: 31px;
-    margin-bottom: 200px;
 }
 
 @media screen and (max-width:930px){
@@ -91,6 +117,15 @@
     .plan__list{
         padding-bottom: 47px;
     }
+
+    .plan__title{
+        margin-bottom: 40px;
+    }
+
+    .line{
+        max-width: 497px;
+        margin-bottom: 48px;
+    }
 }
 
 @media screen and (max-width:620px){
@@ -103,6 +138,7 @@
 
     .plan__list{
         flex-direction: column;
+        margin-left: 95px;
     }
 
     .plan__item{
@@ -122,7 +158,7 @@
     }
 
     .plan__item + .plan__item{
-        margin-right: 0;
+        margin-left: 0px;
     }
 
     .plan__sub-text{
@@ -132,5 +168,9 @@
     .plan__btn{
         max-width: 217px;
         margin-left: 173px;
+    }
+
+    .line{
+        display: none;
     }
 }
